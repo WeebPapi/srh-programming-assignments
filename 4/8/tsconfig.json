@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "NodeNext", // Change this from esnext to NodeNext
+    "moduleResolution": "NodeNext", // Change this from node to NodeNext
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "useUnknownInCatchVariables": false,
+    "allowJs": true,
+    "types": ["node"], // Explicitly include node types
+    "resolveJsonModule": true
+  },
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts", "**/*.tsx"]
+}
